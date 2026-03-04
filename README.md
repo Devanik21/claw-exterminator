@@ -65,7 +65,7 @@ The wizard walks you through everything interactively. Use this if you're new.
 docker run -d \
   --name openclaw \
   -v ~/.openclaw:/root/.openclaw \
-  -p 18789:18789 \
+  -p 127.0.0.1:18789:18789 \
   ghcr.io/openclaw/openclaw:latest
 ```
 
