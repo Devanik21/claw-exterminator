@@ -46,4 +46,4 @@ A curated list of OpenClaw skills that actually work.
 
 ---
 
-*Found a great skill? [Submit a PR to add it!](README.md#-contribute--become-legend)*
+*Found a great skill? [Submit a PR to add it!](README.md#contribute--become-legend)*

@@ -10,4 +10,4 @@ This project exists thanks to all the people who contribute.
 
 ---
 
-*Want to see your name here? [Contribute today!](README.md#-contribute--become-legend)*
+*Want to see your name here? [Contribute today!](README.md#contribute--become-legend)*
