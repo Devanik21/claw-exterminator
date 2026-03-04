@@ -9,8 +9,10 @@
 [![Stars](https://img.shields.io/github/stars/Devanik21/claw-exterminator?style=for-the-badge&color=FFD700&logo=github&label=Stars)](https://github.com/Devanik21/claw-exterminator/stargazers)
 [![Forks](https://img.shields.io/github/forks/Devanik21/claw-exterminator?style=for-the-badge&color=00CED1&logo=github)](https://github.com/Devanik21/claw-exterminator/fork)
 [![Contributors](https://img.shields.io/github/contributors/Devanik21/claw-exterminator?style=for-the-badge&color=32CD32&logo=github)](https://github.com/Devanik21/claw-exterminator/graphs/contributors)
-[![Discord](https://img.shields.io/discord/1234567890?style=for-the-badge&logo=discord&color=5865F2&label=Discord)](https://discord.gg/openclaw)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Devanik-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/devanik/)
+[![X](https://img.shields.io/badge/X-@devanik2005-000000?style=for-the-badge&logo=x)](https://x.com/devanik2005)
 
 **The #openclaw community's missing manual.**  
 Zero → god-tier autonomous agents. One repo. No fluff.
