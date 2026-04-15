@@ -75,7 +75,10 @@ Access your Gateway at `ws://127.0.0.1:18789`.
 
 ```bash
 # On a fresh Ubuntu 22.04 VPS
-curl -fsSL https://get.openclaw.ai | bash
+curl -fsSL https://get.openclaw.ai -o install.sh
+# Inspect the script (recommended)
+# less install.sh
+bash install.sh
 
 # Enable as a systemd service (runs 24/7, survives reboots)
 sudo systemctl enable --now openclaw-gateway
@@ -505,7 +508,10 @@ npm install -g openclaw
 openclaw onboard
 
 # Pair with Tailscale for remote access
-curl -fsSL https://tailscale.com/install.sh | sh
+curl -fsSL https://tailscale.com/install.sh -o install.sh
+# Inspect the script (recommended)
+# less install.sh
+sh install.sh
 sudo tailscale up
 ```
 
@@ -515,12 +521,18 @@ sudo tailscale up
 # Hetzner CX22: 2 vCPU / 4GB RAM / 40GB NVMe / €3.79/mo
 # Run after SSH into a fresh Ubuntu 22.04 instance
 
-curl -fsSL https://get.openclaw.ai | bash
+curl -fsSL https://get.openclaw.ai -o install.sh
+# Inspect the script (recommended)
+# less install.sh
+bash install.sh
 sudo systemctl enable --now openclaw-gateway
 openclaw onboard --headless
 
 # Secure with Tailscale (strongly recommended over opening port 18789)
-curl -fsSL https://tailscale.com/install.sh | sh
+curl -fsSL https://tailscale.com/install.sh -o install.sh
+# Inspect the script (recommended)
+# less install.sh
+sh install.sh
 sudo tailscale up --ssh
 ```
 
@@ -528,7 +540,10 @@ sudo tailscale up --ssh
 
 ```bash
 # Install Ollama
-curl -fsSL https://ollama.ai/install.sh | sh
+curl -fsSL https://ollama.ai/install.sh -o install.sh
+# Inspect the script (recommended)
+# less install.sh
+sh install.sh
 
 # Pull a capable local model
 ollama pull llama3.3:70b
