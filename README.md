@@ -78,7 +78,7 @@ Access your Gateway at `ws://127.0.0.1:18789`.
 curl -fsSL https://get.openclaw.ai -o install.sh
 # Inspect the script (recommended)
 # less install.sh
-bash install.sh
+# After inspection, run: bash install.sh
 
 # Enable as a systemd service (runs 24/7, survives reboots)
 sudo systemctl enable --now openclaw-gateway
@@ -511,7 +511,7 @@ openclaw onboard
 curl -fsSL https://tailscale.com/install.sh -o install.sh
 # Inspect the script (recommended)
 # less install.sh
-sh install.sh
+# After inspection, run: sh install.sh
 sudo tailscale up
 ```
 
@@ -524,7 +524,7 @@ sudo tailscale up
 curl -fsSL https://get.openclaw.ai -o install.sh
 # Inspect the script (recommended)
 # less install.sh
-bash install.sh
+# After inspection, run: bash install.sh
 sudo systemctl enable --now openclaw-gateway
 openclaw onboard --headless
 
@@ -532,7 +532,7 @@ openclaw onboard --headless
 curl -fsSL https://tailscale.com/install.sh -o install.sh
 # Inspect the script (recommended)
 # less install.sh
-sh install.sh
+# After inspection, run: sh install.sh
 sudo tailscale up --ssh
 ```
 
@@ -543,7 +543,7 @@ sudo tailscale up --ssh
 curl -fsSL https://ollama.ai/install.sh -o install.sh
 # Inspect the script (recommended)
 # less install.sh
-sh install.sh
+# After inspection, run: sh install.sh
 
 # Pull a capable local model
 ollama pull llama3.3:70b
